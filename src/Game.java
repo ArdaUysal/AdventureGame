@@ -28,7 +28,8 @@ public class Game {
 			int selectLoc = input.nextInt();
 			if(player.getInventory().isFood() && selectLoc == 3 || player.getInventory().isWood() && selectLoc == 4 || player.getInventory().isWater() && selectLoc == 5) {
 				System.out.println("Buradaki ödülleri topladın. Burada işin bitti. Sizi güvenli eve aktarıyorum! Canınız fullenecek!");
-				selectLoc = 7;
+				selectLoc = 7; 
+				//burada bi ufak çakallık yapılmıştır
 			} 
 			
 			switch(selectLoc) {
